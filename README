@@ -1,0 +1,23 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3447
+
+Activity log is a plugin which simply logs what you're doing and when. For the latest version, to report a problem, or contact the author please visit https://github.com/AD7six/vim-activity-log
+
+What does it do:
+
+if you open and save a file, it'll create a log entries such as the following:
+
+    2011-02-09 08:44:16;open;/home/andy/someproject/somefile
+    2011-02-09 08:44:44;write;/home/andy/someproject/somefile
+    ...
+
+If you're in a git repository at the time, it'll also log the current branch at the time of writing, for example:
+
+
+    2011-02-09 08:44:16;open;/home/andy/someproject/somefile
+    2011-02-09 08:44:44;write;/home/andy/someproject/somefile;special-stuff
+    ...
+
+Why:
+
+The main purpose of this plugin is to make time reporting easy for the forgetful programmer, without additional tools it provides a static log for you, but the format is such that you can easily import or analyze using whatever tool you feel comfortable with.
+
